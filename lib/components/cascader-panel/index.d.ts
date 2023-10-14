@@ -173,14 +173,14 @@ declare const _CascaderPanel: SFCWithInstall<import("vue").DefineComponent<{
         default: () => import("./src/node").CascaderProps;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onChange?: ((...args: any[]) => any) | undefined;
     onClose?: ((...args: any[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onExpandChange?: ((...args: any[]) => any) | undefined;
 }, {
     props: import("./src/node").CascaderProps;
-    options: import("./src/node").CascaderOption[];
     border: boolean;
+    options: import("./src/node").CascaderOption[];
 }>>;
 export default _CascaderPanel;
 export declare const ElCascaderPanel: SFCWithInstall<import("vue").DefineComponent<{
@@ -357,14 +357,14 @@ export declare const ElCascaderPanel: SFCWithInstall<import("vue").DefineCompone
         default: () => import("./src/node").CascaderProps;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onChange?: ((...args: any[]) => any) | undefined;
     onClose?: ((...args: any[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onExpandChange?: ((...args: any[]) => any) | undefined;
 }, {
     props: import("./src/node").CascaderProps;
-    options: import("./src/node").CascaderOption[];
     border: boolean;
+    options: import("./src/node").CascaderOption[];
 }>>;
 export * from './src/types';
 export * from './src/config';

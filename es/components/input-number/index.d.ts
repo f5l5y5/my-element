@@ -56,8 +56,8 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
         };
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: number | undefined) => any) | undefined;
         onChange?: ((prev: number | undefined, cur: number | undefined) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: number | undefined) => any) | undefined;
         onInput?: ((val: number | null | undefined) => any) | undefined;
         onBlur?: ((e: FocusEvent) => any) | undefined;
         onFocus?: ((e: FocusEvent) => any) | undefined;
@@ -92,9 +92,9 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
             readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly id: string;
-            readonly form: string;
             readonly autosize: import("..").InputAutoSize;
             readonly autocomplete: string;
+            readonly form: string;
             readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -162,19 +162,19 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
             onKeydown?: ((evt: Event | KeyboardEvent) => any) | undefined;
             onMouseenter?: ((evt: MouseEvent) => any) | undefined;
             onMouseleave?: ((evt: MouseEvent) => any) | undefined;
-        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "label" | "modelValue" | "validateEvent" | "id" | "form" | "autosize" | "autocomplete" | "readonly" | "clearable" | "showPassword" | "showWordLimit" | "containerRole" | "tabindex" | "inputStyle">;
+        } & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "label" | "modelValue" | "validateEvent" | "id" | "autosize" | "autocomplete" | "form" | "readonly" | "clearable" | "showPassword" | "showWordLimit" | "containerRole" | "tabindex" | "inputStyle">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -248,12 +248,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -325,12 +325,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -517,9 +517,9 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
             readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly id: string;
-            readonly form: string;
             readonly autosize: import("..").InputAutoSize;
             readonly autocomplete: string;
+            readonly form: string;
             readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -607,12 +607,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onChange?: ((value: string) => any) | undefined;
-        onClear?: (() => any) | undefined;
+        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onInput?: ((value: string) => any) | undefined;
         onBlur?: ((evt: FocusEvent) => any) | undefined;
         onFocus?: ((evt: FocusEvent) => any) | undefined;
+        onClear?: (() => any) | undefined;
         onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -684,12 +684,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -1006,12 +1006,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -1251,12 +1251,12 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onChange?: ((value: string) => any) | undefined;
-        onClear?: (() => any) | undefined;
+        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onInput?: ((value: string) => any) | undefined;
         onBlur?: ((evt: FocusEvent) => any) | undefined;
         onFocus?: ((evt: FocusEvent) => any) | undefined;
+        onClear?: (() => any) | undefined;
         onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -1270,9 +1270,9 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
         readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
         readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly id: string;
-        readonly form: string;
         readonly autosize: import("..").InputAutoSize;
         readonly autocomplete: string;
+        readonly form: string;
         readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -1384,8 +1384,8 @@ export declare const ElInputNumber: import("element-plus/es/utils").SFCWithInsta
     };
     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((val: number | undefined) => any) | undefined;
     onChange?: ((prev: number | undefined, cur: number | undefined) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: number | undefined) => any) | undefined;
     onInput?: ((val: number | null | undefined) => any) | undefined;
     onBlur?: ((e: FocusEvent) => any) | undefined;
     onFocus?: ((e: FocusEvent) => any) | undefined;

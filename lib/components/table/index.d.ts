@@ -317,11 +317,11 @@ export declare const ElTable: import("element-plus/es/utils").SFCWithInstall<imp
 }, {
     lazy: boolean;
     style: import("vue").CSSProperties;
-    data: any[];
-    tableLayout: "auto" | "fixed";
-    border: boolean;
-    fit: boolean;
     className: string;
+    border: boolean;
+    tableLayout: "auto" | "fixed";
+    data: any[];
+    fit: boolean;
     scrollbarAlwaysOn: boolean;
     stripe: boolean;
     treeProps: {

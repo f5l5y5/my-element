@@ -4,7 +4,7 @@ import { ElButtonGroup, ElButton } from '../../button/index.mjs';
 import '../../../hooks/index.mjs';
 import '../../../utils/index.mjs';
 import '../../../constants/index.mjs';
-import DateTable from './date-table2.mjs';
+import DateTable from './date-table.mjs';
 import { calendarProps, calendarEmits } from './calendar.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';
 import { useNamespace } from '../../../hooks/use-namespace/index.mjs';

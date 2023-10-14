@@ -33,8 +33,8 @@ declare const _default: import("vue").DefineComponent<{
         readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: CheckboxValueType[]) => any) | undefined;
         onChange?: ((val: CheckboxValueType[]) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: CheckboxValueType[]) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: CheckboxValueType[]) => void) & ((event: "change", val: CheckboxValueType[]) => void);
     ns: {
@@ -80,8 +80,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((val: CheckboxValueType[]) => any) | undefined;
     onChange?: ((val: CheckboxValueType[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: CheckboxValueType[]) => any) | undefined;
 }, {
     readonly disabled: boolean;
     readonly modelValue: (string | number)[];

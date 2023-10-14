@@ -58,8 +58,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
         readonly targetOrder: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "push" | "unshift" | "original", unknown, "original", boolean>;
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: import("./src/transfer").TransferKey[]) => any) | undefined;
         onChange?: ((value: import("./src/transfer").TransferKey[], direction: import("./src/transfer").TransferDirection, movedKeys: import("./src/transfer").TransferKey[]) => any) | undefined;
+        "onUpdate:modelValue"?: ((value: import("./src/transfer").TransferKey[]) => any) | undefined;
         onLeftCheckChange?: ((value: import("./src/transfer").TransferKey[], movedKeys?: import("./src/transfer").TransferKey[] | undefined) => any) | undefined;
         onRightCheckChange?: ((value: import("./src/transfer").TransferKey[], movedKeys?: import("./src/transfer").TransferKey[] | undefined) => any) | undefined;
     }>>;
@@ -362,8 +362,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -443,8 +443,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -546,8 +546,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                             default: boolean;
                         };
                     }>> & {
-                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                         onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     }>>;
                     slots: Readonly<{
                         [name: string]: import("vue").Slot | undefined;
@@ -628,8 +628,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }, {
                     disabled: boolean;
                     name: string;
@@ -677,8 +677,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                     }>> & {
-                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                         onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     }>>;
                     emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                     ns: {
@@ -724,8 +724,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }, {
                     readonly disabled: boolean;
                     readonly modelValue: (string | number)[];
@@ -767,8 +767,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -814,8 +814,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }, {
                 readonly disabled: boolean;
                 readonly modelValue: (string | number)[];
@@ -946,12 +946,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                     readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                     onChange?: ((value: string) => any) | undefined;
-                    onClear?: (() => any) | undefined;
+                    "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                     onInput?: ((value: string) => any) | undefined;
                     onBlur?: ((evt: FocusEvent) => any) | undefined;
                     onFocus?: ((evt: FocusEvent) => any) | undefined;
+                    onClear?: (() => any) | undefined;
                     onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                     onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                     onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -1191,12 +1191,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -1210,9 +1210,9 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly id: string;
-                readonly form: string;
                 readonly autosize: import("..").InputAutoSize;
                 readonly autocomplete: string;
+                readonly form: string;
                 readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -1457,8 +1457,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }>>;
             slots: Readonly<{
                 [name: string]: import("vue").Slot | undefined;
@@ -1538,8 +1538,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 default: boolean;
             };
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
         }, {
             disabled: boolean;
             name: string;
@@ -1641,8 +1641,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -1723,8 +1723,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -1772,8 +1772,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -1819,8 +1819,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }, {
                 readonly disabled: boolean;
                 readonly modelValue: (string | number)[];
@@ -1862,8 +1862,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }>>;
             emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
             ns: {
@@ -1909,8 +1909,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
         }, {
             readonly disabled: boolean;
             readonly modelValue: (string | number)[];
@@ -2041,12 +2041,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -2286,12 +2286,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -2305,9 +2305,9 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
             readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly id: string;
-            readonly form: string;
             readonly autosize: import("..").InputAutoSize;
             readonly autocomplete: string;
+            readonly form: string;
             readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -2578,8 +2578,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -2659,8 +2659,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -2762,8 +2762,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                             default: boolean;
                         };
                     }>> & {
-                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                         onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     }>>;
                     slots: Readonly<{
                         [name: string]: import("vue").Slot | undefined;
@@ -2844,8 +2844,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }, {
                     disabled: boolean;
                     name: string;
@@ -2893,8 +2893,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                     }>> & {
-                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                         onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                        "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     }>>;
                     emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                     ns: {
@@ -2940,8 +2940,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }, {
                     readonly disabled: boolean;
                     readonly modelValue: (string | number)[];
@@ -2983,8 +2983,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -3030,8 +3030,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }, {
                 readonly disabled: boolean;
                 readonly modelValue: (string | number)[];
@@ -3162,12 +3162,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                     readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                     onChange?: ((value: string) => any) | undefined;
-                    onClear?: (() => any) | undefined;
+                    "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                     onInput?: ((value: string) => any) | undefined;
                     onBlur?: ((evt: FocusEvent) => any) | undefined;
                     onFocus?: ((evt: FocusEvent) => any) | undefined;
+                    onClear?: (() => any) | undefined;
                     onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                     onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                     onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -3407,12 +3407,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -3426,9 +3426,9 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly id: string;
-                readonly form: string;
                 readonly autosize: import("..").InputAutoSize;
                 readonly autocomplete: string;
+                readonly form: string;
                 readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
                 readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -3673,8 +3673,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }>>;
             slots: Readonly<{
                 [name: string]: import("vue").Slot | undefined;
@@ -3754,8 +3754,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 default: boolean;
             };
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
         }, {
             disabled: boolean;
             name: string;
@@ -3857,8 +3857,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -3939,8 +3939,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -3988,8 +3988,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -4035,8 +4035,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }, {
                 readonly disabled: boolean;
                 readonly modelValue: (string | number)[];
@@ -4078,8 +4078,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }>>;
             emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
             ns: {
@@ -4125,8 +4125,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
         }, {
             readonly disabled: boolean;
             readonly modelValue: (string | number)[];
@@ -4257,12 +4257,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -4502,12 +4502,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -4521,9 +4521,9 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
             readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly id: string;
-            readonly form: string;
             readonly autosize: import("..").InputAutoSize;
             readonly autocomplete: string;
+            readonly form: string;
             readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -5070,8 +5070,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }>>;
             slots: Readonly<{
                 [name: string]: import("vue").Slot | undefined;
@@ -5151,8 +5151,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 default: boolean;
             };
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
         }, {
             disabled: boolean;
             name: string;
@@ -5254,8 +5254,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                         default: boolean;
                     };
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 }>>;
                 slots: Readonly<{
                     [name: string]: import("vue").Slot | undefined;
@@ -5336,8 +5336,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     default: boolean;
                 };
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType) => any) | undefined;
             }, {
                 disabled: boolean;
                 name: string;
@@ -5385,8 +5385,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 }>> & {
-                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                     onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                    "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 }>>;
                 emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
                 ns: {
@@ -5432,8 +5432,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }, {
                 readonly disabled: boolean;
                 readonly modelValue: (string | number)[];
@@ -5475,8 +5475,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
                 onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+                "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             }>>;
             emit: ((event: "update:modelValue", val: import("..").CheckboxValueType[]) => void) & ((event: "change", val: import("..").CheckboxValueType[]) => void);
             ns: {
@@ -5522,8 +5522,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
             onChange?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("..").CheckboxValueType[]) => any) | undefined;
         }, {
             readonly disabled: boolean;
             readonly modelValue: (string | number)[];
@@ -5654,12 +5654,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
                 readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
                 readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
             }>> & {
-                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onChange?: ((value: string) => any) | undefined;
-                onClear?: (() => any) | undefined;
+                "onUpdate:modelValue"?: ((value: string) => any) | undefined;
                 onInput?: ((value: string) => any) | undefined;
                 onBlur?: ((evt: FocusEvent) => any) | undefined;
                 onFocus?: ((evt: FocusEvent) => any) | undefined;
+                onClear?: (() => any) | undefined;
                 onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
                 onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -5899,12 +5899,12 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("element-plus/es/utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -5918,9 +5918,9 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
             readonly modelValue: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
             readonly validateEvent: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly id: string;
-            readonly form: string;
             readonly autosize: import("..").InputAutoSize;
             readonly autocomplete: string;
+            readonly form: string;
             readonly readonly: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly clearable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly showPassword: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
@@ -6004,8 +6004,8 @@ export declare const ElTransfer: import("element-plus/es/utils").SFCWithInstall<
     readonly targetOrder: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "push" | "unshift" | "original", unknown, "original", boolean>;
     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((value: import("./src/transfer").TransferKey[]) => any) | undefined;
     onChange?: ((value: import("./src/transfer").TransferKey[], direction: import("./src/transfer").TransferDirection, movedKeys: import("./src/transfer").TransferKey[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((value: import("./src/transfer").TransferKey[]) => any) | undefined;
     onLeftCheckChange?: ((value: import("./src/transfer").TransferKey[], movedKeys?: import("./src/transfer").TransferKey[] | undefined) => any) | undefined;
     onRightCheckChange?: ((value: import("./src/transfer").TransferKey[], movedKeys?: import("./src/transfer").TransferKey[] | undefined) => any) | undefined;
 }, {

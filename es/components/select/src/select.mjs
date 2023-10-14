@@ -20,7 +20,7 @@ import ClickOutside from '../../../directives/click-outside/index.mjs';
 import { isValidComponentSize } from '../../../utils/vue/validator.mjs';
 import { useTooltipContentProps } from '../../tooltip/src/tooltip2.mjs';
 import { iconPropType } from '../../../utils/vue/icon.mjs';
-import { tagProps } from '../../tag/src/tag2.mjs';
+import { tagProps } from '../../tag/src/tag.mjs';
 import { UPDATE_MODEL_EVENT, CHANGE_EVENT } from '../../../constants/event.mjs';
 import { useNamespace } from '../../../hooks/use-namespace/index.mjs';
 import { useLocale } from '../../../hooks/use-locale/index.mjs';

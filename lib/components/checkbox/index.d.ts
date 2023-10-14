@@ -86,8 +86,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
             default: boolean;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
         onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
     }>>;
     slots: Readonly<{
         [name: string]: import("vue").Slot | undefined;
@@ -167,8 +167,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
         default: boolean;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
     onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
 }, {
     disabled: boolean;
     name: string;
@@ -270,8 +270,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
                 default: boolean;
             };
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
             onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
         }>>;
         slots: Readonly<{
             [name: string]: import("vue").Slot | undefined;
@@ -352,8 +352,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
             default: boolean;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
         onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
     }, {
         disabled: boolean;
         name: string;
@@ -401,8 +401,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
             readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
             readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
             onChange?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
+            "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
         }>>;
         emit: ((event: "update:modelValue", val: import("./src/checkbox").CheckboxValueType[]) => void) & ((event: "change", val: import("./src/checkbox").CheckboxValueType[]) => void);
         ns: {
@@ -448,8 +448,8 @@ export declare const ElCheckbox: import("element-plus/es/utils").SFCWithInstall<
         readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
         onChange?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
     }, {
         readonly disabled: boolean;
         readonly modelValue: (string | number)[];
@@ -546,8 +546,8 @@ export declare const ElCheckboxButton: import("element-plus/es/utils").SFCWithIn
             default: boolean;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
         onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
     }>>;
     slots: Readonly<{
         [name: string]: import("vue").Slot | undefined;
@@ -628,8 +628,8 @@ export declare const ElCheckboxButton: import("element-plus/es/utils").SFCWithIn
         default: boolean;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
     onChange?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType) => any) | undefined;
 }, {
     disabled: boolean;
     name: string;
@@ -677,8 +677,8 @@ export declare const ElCheckboxGroup: import("element-plus/es/utils").SFCWithIns
         readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
         readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
         onChange?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: import("./src/checkbox").CheckboxValueType[]) => void) & ((event: "change", val: import("./src/checkbox").CheckboxValueType[]) => void);
     ns: {
@@ -724,8 +724,8 @@ export declare const ElCheckboxGroup: import("element-plus/es/utils").SFCWithIns
     readonly tag: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, "div", boolean>;
     readonly validateEvent: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
     onChange?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: import("./src/checkbox").CheckboxValueType[]) => any) | undefined;
 }, {
     readonly disabled: boolean;
     readonly modelValue: (string | number)[];

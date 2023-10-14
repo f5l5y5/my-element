@@ -86,8 +86,8 @@ declare const _default: import("vue").DefineComponent<{
             default: boolean;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
         onChange?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
     }>>;
     slots: Readonly<{
         [name: string]: import("vue").Slot | undefined;
@@ -167,8 +167,8 @@ declare const _default: import("vue").DefineComponent<{
         default: boolean;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
     onChange?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: import("./checkbox").CheckboxValueType) => any) | undefined;
 }, {
     disabled: boolean;
     name: string;

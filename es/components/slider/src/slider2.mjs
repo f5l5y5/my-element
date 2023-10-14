@@ -3,7 +3,7 @@ import { ElInputNumber } from '../../input-number/index.mjs';
 import '../../../hooks/index.mjs';
 import '../../../tokens/index.mjs';
 import { sliderProps, sliderEmits } from './slider.mjs';
-import SliderButton from './button2.mjs';
+import SliderButton from './button.mjs';
 import SliderMarker from './marker.mjs';
 import './composables/index.mjs';
 import _export_sfc from '../../../_virtual/plugin-vue_export-helper.mjs';

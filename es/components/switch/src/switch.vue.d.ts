@@ -94,8 +94,8 @@ declare const _default: import("vue").DefineComponent<{
             __epPropKey: true;
         };
     }>> & {
-        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
         onChange?: ((val: string | number | boolean) => any) | undefined;
+        "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", val: string | number | boolean) => void) & ((event: "change", val: string | number | boolean) => void);
     formItem: import("../../..").FormItemContext | undefined;
@@ -244,8 +244,8 @@ declare const _default: import("vue").DefineComponent<{
         __epPropKey: true;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
     onChange?: ((val: string | number | boolean) => any) | undefined;
+    "onUpdate:modelValue"?: ((val: string | number | boolean) => any) | undefined;
 }, {
     readonly disabled: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly loading: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;

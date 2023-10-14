@@ -175,13 +175,13 @@ declare const _default: import("vue").DefineComponent<{
         default: () => import("./node").CascaderProps;
     };
 }>> & {
-    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onChange?: ((...args: any[]) => any) | undefined;
     onClose?: ((...args: any[]) => any) | undefined;
+    "onUpdate:modelValue"?: ((...args: any[]) => any) | undefined;
     onExpandChange?: ((...args: any[]) => any) | undefined;
 }, {
     props: import("./node").CascaderProps;
-    options: CascaderOption[];
     border: boolean;
+    options: CascaderOption[];
 }>;
 export default _default;

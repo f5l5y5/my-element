@@ -172,9 +172,9 @@ declare const _default: import("vue").DefineComponent<{
     modelValue: import("../../../utils").EpPropMergeType<(new (...args: any[]) => import("./common/props").ModelValueType & {}) | (() => import("./common/props").ModelValueType) | ((new (...args: any[]) => import("./common/props").ModelValueType & {}) | (() => import("./common/props").ModelValueType))[], unknown, unknown>;
     validateEvent: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     editable: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    placeholder: string;
     popperClass: string;
     popperOptions: Partial<import("@popperjs/core").Options>;
+    placeholder: string;
     readonly: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     clearable: import("../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     prefixIcon: import("../../../utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) & {}) | (() => string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) | ((new (...args: any[]) => (string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>) & {}) | (() => string | import("vue").Component<any, any, any, import("vue").ComputedOptions, import("vue").MethodOptions>))[], unknown, unknown>;

@@ -11,7 +11,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
     readonly placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
     readonly reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
     readonly offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-    readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+    readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
     readonly showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly onBlur: {
         readonly type: import("vue").PropType<(e: Event) => boolean | void>;
@@ -81,7 +81,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         readonly placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
         readonly reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
         readonly offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-        readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+        readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
         readonly showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         readonly onBlur: {
             readonly type: import("vue").PropType<(e: Event) => boolean | void>;
@@ -153,7 +153,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         readonly placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
         readonly reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
         readonly offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-        readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+        readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
         readonly showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         readonly onBlur: {
             readonly type: import("vue").PropType<(e: Event) => boolean | void>;
@@ -216,20 +216,20 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
         readonly placement?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown> | undefined;
         readonly height?: number | undefined;
-        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
-        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
-        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
-        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown> | undefined;
-        readonly width?: number | undefined;
         readonly offset?: number | undefined;
+        readonly width?: number | undefined;
         readonly effect?: string | undefined;
+        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown> | undefined;
+        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
         readonly ariaLabel?: string | undefined;
         readonly teleported?: boolean | undefined;
         readonly onBlur?: ((e: Event) => boolean | void) | undefined;
         readonly onFocus?: ((e: Event) => boolean | void) | undefined;
+        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
         readonly contentClass?: string | undefined;
         readonly onClick?: ((e: Event) => boolean | void) | undefined;
         readonly showArrow?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
+        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
         readonly reference?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown> | undefined;
         readonly alwaysOn?: boolean | undefined;
         readonly delayDuration?: number | undefined;
@@ -247,20 +247,20 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
         readonly placement?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown> | undefined;
         readonly height?: number | undefined;
-        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
-        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
-        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
-        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown> | undefined;
-        readonly width?: number | undefined;
         readonly offset?: number | undefined;
+        readonly width?: number | undefined;
         readonly effect?: string | undefined;
+        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown> | undefined;
+        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
         readonly ariaLabel?: string | undefined;
         readonly teleported?: boolean | undefined;
         readonly onBlur?: ((e: Event) => boolean | void) | undefined;
         readonly onFocus?: ((e: Event) => boolean | void) | undefined;
+        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
         readonly contentClass?: string | undefined;
         readonly onClick?: ((e: Event) => boolean | void) | undefined;
         readonly showArrow?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
+        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
         readonly reference?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown> | undefined;
         readonly alwaysOn?: boolean | undefined;
         readonly delayDuration?: number | undefined;
@@ -278,20 +278,20 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
         readonly placement?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown> | undefined;
         readonly height?: number | undefined;
-        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
-        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
-        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
-        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown> | undefined;
-        readonly width?: number | undefined;
         readonly offset?: number | undefined;
+        readonly width?: number | undefined;
         readonly effect?: string | undefined;
+        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown> | undefined;
+        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
         readonly ariaLabel?: string | undefined;
         readonly teleported?: boolean | undefined;
         readonly onBlur?: ((e: Event) => boolean | void) | undefined;
         readonly onFocus?: ((e: Event) => boolean | void) | undefined;
+        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
         readonly contentClass?: string | undefined;
         readonly onClick?: ((e: Event) => boolean | void) | undefined;
         readonly showArrow?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
+        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
         readonly reference?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown> | undefined;
         readonly alwaysOn?: boolean | undefined;
         readonly delayDuration?: number | undefined;
@@ -309,20 +309,20 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
         readonly placement?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown> | undefined;
         readonly height?: number | undefined;
-        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
-        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
-        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
-        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown> | undefined;
-        readonly width?: number | undefined;
         readonly offset?: number | undefined;
+        readonly width?: number | undefined;
         readonly effect?: string | undefined;
+        readonly strategy?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown> | undefined;
+        readonly style?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown> | undefined;
         readonly ariaLabel?: string | undefined;
         readonly teleported?: boolean | undefined;
         readonly onBlur?: ((e: Event) => boolean | void) | undefined;
         readonly onFocus?: ((e: Event) => boolean | void) | undefined;
+        readonly open?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
         readonly contentClass?: string | undefined;
         readonly onClick?: ((e: Event) => boolean | void) | undefined;
         readonly showArrow?: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown> | undefined;
+        readonly to?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
         readonly reference?: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown> | undefined;
         readonly alwaysOn?: boolean | undefined;
         readonly delayDuration?: number | undefined;
@@ -479,8 +479,8 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         style: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown, null, boolean>;
     }>>, {
         height: number;
-        style: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown>;
         width: number;
+        style: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown>;
     }>;
     TooltipV2Content: import("vue").DefineComponent<{
         nowrap: BooleanConstructor;
@@ -491,7 +491,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
         reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
         offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-        strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+        strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
         showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     }, {
         props: Readonly<import("@vue/shared").LooseRequired<Readonly<import("vue").ExtractPropTypes<{
@@ -503,7 +503,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
             placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
             reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
             offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-            strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+            strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
             showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         }>> & {
             [x: string & `on${string}`]: ((...args: any[]) => any) | ((...args: unknown[]) => any) | undefined;
@@ -511,7 +511,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         triggerRef: import("vue").Ref<HTMLElement | null>;
         contentId: import("vue").Ref<string>;
         placement: import("vue").Ref<import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown>>;
-        strategy: import("vue").Ref<import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown>>;
+        strategy: import("vue").Ref<import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown>>;
         arrowRef: import("vue").Ref<HTMLElement | null>;
         referenceRef: import("vue").Ref<HTMLElement | import("@floating-ui/dom").VirtualElement | undefined>;
         contentRef: import("vue").Ref<HTMLElement | undefined>;
@@ -610,13 +610,13 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
         placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
         reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
         offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-        strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+        strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
         showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     }>>, {
         placement: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown>;
-        strategy: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown>;
         offset: number;
         effect: string;
+        strategy: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown>;
         nowrap: boolean;
         showArrow: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         reference: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown>;
@@ -798,7 +798,7 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
     readonly placement: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown, "bottom", boolean>;
     readonly reference: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown, null, boolean>;
     readonly offset: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 8, boolean>;
-    readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown, "absolute", boolean>;
+    readonly strategy: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown, "absolute", boolean>;
     readonly showArrow: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly onBlur: {
         readonly type: import("vue").PropType<(e: Event) => boolean | void>;
@@ -857,15 +857,15 @@ export declare const ElTooltipV2: import("element-plus/es/utils").SFCWithInstall
 }>>, {
     readonly placement: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement) | ((new (...args: any[]) => import("@floating-ui/core").Placement & {}) | (() => import("@floating-ui/core").Placement))[], "left" | "right" | "top" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end", unknown>;
     readonly height: number;
-    readonly to: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
-    readonly style: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown>;
-    readonly open: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly strategy: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "absolute" | "fixed", unknown>;
-    readonly width: number;
     readonly offset: number;
+    readonly width: number;
     readonly effect: string;
+    readonly strategy: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy) | ((new (...args: any[]) => import("@floating-ui/core").Strategy & {}) | (() => import("@floating-ui/core").Strategy))[], "fixed" | "absolute", unknown>;
+    readonly style: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null) | ((new (...args: any[]) => import("vue").CSSProperties) | (() => import("vue").CSSProperties | null))[], unknown, unknown>;
     readonly teleported: boolean;
+    readonly open: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly showArrow: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    readonly to: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined) | ((new (...args: any[]) => (string | import("vue").RendererElement | null | undefined) & {}) | (() => string | import("vue").RendererElement | null | undefined))[], unknown, unknown>;
     readonly reference: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null) | ((new (...args: any[]) => HTMLElement | import("@floating-ui/dom").VirtualElement) | (() => HTMLElement | import("@floating-ui/dom").VirtualElement | null))[], unknown, unknown>;
     readonly alwaysOn: boolean;
     readonly delayDuration: number;

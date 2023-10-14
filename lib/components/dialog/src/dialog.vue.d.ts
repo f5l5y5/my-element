@@ -98,8 +98,8 @@ declare const _default: import("vue").DefineComponent<{
         readonly showClose: import("../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly title: import("../../../utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onClose?: (() => any) | undefined;
+        "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
         onOpen?: (() => any) | undefined;
         onOpened?: (() => any) | undefined;
         onClosed?: (() => any) | undefined;
@@ -428,8 +428,8 @@ declare const _default: import("vue").DefineComponent<{
     readonly showClose: import("../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
     readonly title: import("../../../utils").EpPropFinalized<StringConstructor, unknown, unknown, "", boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onClose?: (() => any) | undefined;
+    "onUpdate:modelValue"?: ((value: boolean) => any) | undefined;
     onOpen?: (() => any) | undefined;
     onOpened?: (() => any) | undefined;
     onClosed?: (() => any) | undefined;

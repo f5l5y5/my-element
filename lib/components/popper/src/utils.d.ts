@@ -50,7 +50,7 @@ export declare const buildPopperOptions: (props: UsePopperCoreConfigProps, arrow
         };
     })[];
     placement: "left" | "right" | "top" | "auto" | "auto-start" | "auto-end" | "bottom" | "top-start" | "top-end" | "bottom-start" | "bottom-end" | "right-start" | "right-end" | "left-start" | "left-end";
-    strategy: "absolute" | "fixed";
+    strategy: "fixed" | "absolute";
     onFirstUpdate?: ((arg0: Partial<import("@popperjs/core").State>) => void) | undefined;
 };
 export declare const unwrapMeasurableEl: ($el: MaybeRef<Measurable | undefined | ComponentPublicInstance>) => HTMLElement | undefined;

@@ -5,7 +5,7 @@ export declare const ElProgress: import("element-plus/es/utils").SFCWithInstall<
     readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
     readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-    readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+    readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
     readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
     readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -33,7 +33,7 @@ export declare const ElProgress: import("element-plus/es/utils").SFCWithInstall<
         readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
         readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-        readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+        readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
         readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
         readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
         readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -153,7 +153,7 @@ export declare const ElProgress: import("element-plus/es/utils").SFCWithInstall<
     readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
     readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-    readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+    readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
     readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
     readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
     readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -171,7 +171,7 @@ export declare const ElProgress: import("element-plus/es/utils").SFCWithInstall<
     readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "circle" | "line" | "dashboard", unknown>;
     readonly color: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("./src/progress").ProgressFn | import("./src/progress").ProgressColor[]) & {}) | (() => string | import("./src/progress").ProgressFn | import("./src/progress").ProgressColor[]) | ((new (...args: any[]) => (string | import("./src/progress").ProgressFn | import("./src/progress").ProgressColor[]) & {}) | (() => string | import("./src/progress").ProgressFn | import("./src/progress").ProgressColor[]))[], unknown, unknown>;
     readonly width: number;
-    readonly strokeLinecap: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown>;
+    readonly strokeLinecap: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown>;
     readonly strokeWidth: number;
     readonly indeterminate: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly format: import("./src/progress").ProgressFn;

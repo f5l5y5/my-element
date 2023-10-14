@@ -67,9 +67,9 @@ declare const _default: import("vue").DefineComponent<{
 }>>, {
     label: string;
     width: string | number;
+    className: string;
     minWidth: string | number;
     span: number;
-    className: string;
     align: string;
     labelAlign: string;
     labelClassName: string;

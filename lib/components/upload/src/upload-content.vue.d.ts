@@ -358,9 +358,9 @@ declare const _default: import("vue").DefineComponent<{
     readonly disabled: boolean;
     readonly name: string;
     readonly drag: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly data: Record<string, any>;
     readonly onError: (err: import("./ajax").UploadAjaxError, rawFile: UploadRawFile) => void;
-    readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
     readonly onProgress: (evt: import("./upload").UploadProgressEvent, rawFile: UploadRawFile) => void;
     readonly action: string;
     readonly method: string;

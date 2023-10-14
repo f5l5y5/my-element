@@ -72,8 +72,8 @@ declare const _default: import("vue").DefineComponent<{
 }>>, {
     readonly disabled: boolean;
     readonly trigger: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("click" | "contextmenu" | "focus" | "hover" | ("click" | "contextmenu" | "focus" | "hover")[]) & {}) | (() => "click" | "contextmenu" | "focus" | "hover" | ("click" | "contextmenu" | "focus" | "hover")[]) | ((new (...args: any[]) => ("click" | "contextmenu" | "focus" | "hover" | ("click" | "contextmenu" | "focus" | "hover")[]) & {}) | (() => "click" | "contextmenu" | "focus" | "hover" | ("click" | "contextmenu" | "focus" | "hover")[]))[], unknown, unknown>;
-    readonly open: boolean;
     readonly virtualTriggering: boolean;
+    readonly open: boolean;
     readonly triggerKeys: string[];
 }>;
 export default _default;

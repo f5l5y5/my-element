@@ -9,7 +9,7 @@ export declare const roleTypes: readonly ["dialog", "grid", "listbox", "menu", "
 export declare type PopperEffect = typeof effects[number];
 export declare type PopperTrigger = typeof triggers[number];
 export declare const usePopperProps: {
-    readonly role: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "dialog" | "tree" | "grid" | "menu" | "listbox" | "tooltip", unknown, "tooltip", boolean>;
+    readonly role: import("element-plus/es/utils").EpPropFinalized<StringConstructor, "listbox" | "grid" | "menu" | "tooltip" | "dialog" | "tree", unknown, "tooltip", boolean>;
 };
 export declare type UsePopperProps = ExtractPropTypes<typeof usePopperProps>;
 export {};

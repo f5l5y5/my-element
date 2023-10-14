@@ -150,12 +150,12 @@ declare const _default: import("vue").DefineComponent<{}, {
             readonly validateEvent: import("../../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
             readonly inputStyle: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("../../../../utils").Mutable<{}>, boolean>;
         }>> & {
-            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onChange?: ((value: string) => any) | undefined;
-            onClear?: (() => any) | undefined;
+            "onUpdate:modelValue"?: ((value: string) => any) | undefined;
             onInput?: ((value: string) => any) | undefined;
             onBlur?: ((evt: FocusEvent) => any) | undefined;
             onFocus?: ((evt: FocusEvent) => any) | undefined;
+            onClear?: (() => any) | undefined;
             onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
             onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -395,12 +395,12 @@ declare const _default: import("vue").DefineComponent<{}, {
         readonly validateEvent: import("../../../../utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
         readonly inputStyle: import("../../../../utils").EpPropFinalized<(new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue) | ((new (...args: any[]) => import("vue").StyleValue & {}) | (() => import("vue").StyleValue))[], unknown, unknown, () => import("../../../../utils").Mutable<{}>, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onChange?: ((value: string) => any) | undefined;
-        onClear?: (() => any) | undefined;
+        "onUpdate:modelValue"?: ((value: string) => any) | undefined;
         onInput?: ((value: string) => any) | undefined;
         onBlur?: ((evt: FocusEvent) => any) | undefined;
         onFocus?: ((evt: FocusEvent) => any) | undefined;
+        onClear?: (() => any) | undefined;
         onCompositionend?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionstart?: ((evt: CompositionEvent) => any) | undefined;
         onCompositionupdate?: ((evt: CompositionEvent) => any) | undefined;
@@ -414,9 +414,9 @@ declare const _default: import("vue").DefineComponent<{}, {
         readonly modelValue: import("../../../../utils").EpPropMergeType<(new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined) | ((new (...args: any[]) => (string | number | null | undefined) & {}) | (() => string | number | null | undefined))[], unknown, unknown>;
         readonly validateEvent: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly id: string;
-        readonly form: string;
         readonly autosize: import("element-plus/es/components/input").InputAutoSize;
         readonly autocomplete: string;
+        readonly form: string;
         readonly readonly: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly clearable: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly showPassword: import("../../../../utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;

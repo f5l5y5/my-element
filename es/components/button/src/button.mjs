@@ -1,4 +1,4 @@
-import { defineComponent, useSlots, computed, inject, ref, Text, openBlock, createElementBlock, normalizeClass, unref, normalizeStyle, Fragment, renderSlot, createBlock, withCtx, resolveDynamicComponent, createCommentVNode } from 'vue';
+import { createTextVNode, defineComponent, useSlots, computed, inject, ref, Text, openBlock, createElementBlock, normalizeClass, unref, normalizeStyle, Fragment, renderSlot, createBlock, withCtx, resolveDynamicComponent, createCommentVNode } from 'vue';
 import { ElIcon } from '../../icon/index.mjs';
 import '../../../hooks/index.mjs';
 import '../../../tokens/index.mjs';
@@ -13,6 +13,8 @@ import { useFormItem } from '../../../hooks/use-form-item/index.mjs';
 import { useSize, useDisabled } from '../../../hooks/use-common-props/index.mjs';
 
 const _hoisted_1 = ["aria-disabled", "disabled", "autofocus", "type"];
+const _hoisted_2 = /* @__PURE__ */ createTextVNode(" \u4FEE\u6539\u540E\u7684 \uFF5C ");
+const _hoisted_3 = /* @__PURE__ */ createTextVNode(" \uFF5C ");
 const __default__ = defineComponent({
   name: "ElButton"
 });
@@ -112,7 +114,9 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
           key: 2,
           class: normalizeClass({ [unref(ns).em("text", "expand")]: unref(shouldAddSpace) })
         }, [
-          renderSlot(_ctx.$slots, "default")
+          _hoisted_2,
+          renderSlot(_ctx.$slots, "default"),
+          _hoisted_3
         ], 2)) : createCommentVNode("v-if", true)
       ], 14, _hoisted_1);
     };

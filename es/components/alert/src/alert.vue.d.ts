@@ -131,8 +131,8 @@ declare const _default: import("vue").DefineComponent<{
 }, {
     readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "success" | "warning" | "info" | "error", unknown>;
     readonly closable: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly description: string;
     readonly title: string;
+    readonly description: string;
     readonly closeText: string;
     readonly effect: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "dark" | "light", unknown>;
     readonly showIcon: boolean;

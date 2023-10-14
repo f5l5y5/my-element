@@ -232,9 +232,9 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             readonly disabled: boolean;
             readonly name: string;
             readonly drag: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+            readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly data: Record<string, any>;
             readonly onError: (err: import("./src/ajax").UploadAjaxError, rawFile: import("./src/upload").UploadRawFile) => void;
-            readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly onProgress: (evt: import("./src/upload").UploadProgressEvent, rawFile: import("./src/upload").UploadRawFile) => void;
             readonly action: string;
             readonly method: string;
@@ -344,7 +344,7 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             })[], unknown, unknown, import("./src/upload").UploadRequestHandler, boolean>;
             readonly disabled: BooleanConstructor;
             readonly limit: NumberConstructor;
-        }>> & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "name" | "drag" | "data" | "onError" | "multiple" | "onProgress" | "action" | "method" | "showFileList" | "accept" | "fileList" | "autoUpload" | "listType" | "httpRequest" | "withCredentials" | "beforeUpload" | "onRemove" | "onSuccess" | "onExceed" | "onStart">;
+        }>> & import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, "type" | "disabled" | "name" | "drag" | "multiple" | "data" | "onError" | "onProgress" | "action" | "method" | "showFileList" | "accept" | "fileList" | "autoUpload" | "listType" | "httpRequest" | "withCredentials" | "beforeUpload" | "onRemove" | "onSuccess" | "onExceed" | "onStart">;
         $attrs: {
             [x: string]: unknown;
         };
@@ -623,9 +623,9 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             readonly disabled: boolean;
             readonly name: string;
             readonly drag: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+            readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly data: Record<string, any>;
             readonly onError: (err: import("./src/ajax").UploadAjaxError, rawFile: import("./src/upload").UploadRawFile) => void;
-            readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly onProgress: (evt: import("./src/upload").UploadProgressEvent, rawFile: import("./src/upload").UploadRawFile) => void;
             readonly action: string;
             readonly method: string;
@@ -1101,7 +1101,7 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
             readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
             readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-            readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+            readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
             readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
             readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
             readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -1129,7 +1129,7 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
                 readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
                 readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
                 readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-                readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+                readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
                 readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
                 readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
                 readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -1249,7 +1249,7 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             readonly indeterminate: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
             readonly duration: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 3, boolean>;
             readonly strokeWidth: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 6, boolean>;
-            readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown, "round", boolean>;
+            readonly strokeLinecap: import("element-plus/es/utils").EpPropFinalized<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown, "round", boolean>;
             readonly textInside: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, false, boolean>;
             readonly width: import("element-plus/es/utils").EpPropFinalized<NumberConstructor, unknown, unknown, 126, boolean>;
             readonly showText: import("element-plus/es/utils").EpPropFinalized<BooleanConstructor, unknown, unknown, true, boolean>;
@@ -1267,7 +1267,7 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
             readonly type: import("element-plus/es/utils").EpPropMergeType<StringConstructor, "circle" | "line" | "dashboard", unknown>;
             readonly color: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => (string | import("..").ProgressFn | import("..").ProgressColor[]) & {}) | (() => string | import("..").ProgressFn | import("..").ProgressColor[]) | ((new (...args: any[]) => (string | import("..").ProgressFn | import("..").ProgressColor[]) & {}) | (() => string | import("..").ProgressFn | import("..").ProgressColor[]))[], unknown, unknown>;
             readonly width: number;
-            readonly strokeLinecap: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt") | ((new (...args: any[]) => ("round" | "inherit" | "square" | "butt") & {}) | (() => "round" | "inherit" | "square" | "butt"))[], unknown, unknown>;
+            readonly strokeLinecap: import("element-plus/es/utils").EpPropMergeType<(new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square") | ((new (...args: any[]) => ("round" | "inherit" | "butt" | "square") & {}) | (() => "round" | "inherit" | "butt" | "square"))[], unknown, unknown>;
             readonly strokeWidth: number;
             readonly indeterminate: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
             readonly format: import("..").ProgressFn;
@@ -1659,9 +1659,9 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
         readonly disabled: boolean;
         readonly name: string;
         readonly drag: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+        readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly data: Record<string, any>;
         readonly onError: (err: import("./src/ajax").UploadAjaxError, rawFile: import("./src/upload").UploadRawFile) => void;
-        readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
         readonly onProgress: (evt: import("./src/upload").UploadProgressEvent, rawFile: import("./src/upload").UploadRawFile) => void;
         readonly action: string;
         readonly method: string;
@@ -1792,10 +1792,10 @@ export declare const ElUpload: import("element-plus/es/utils").SFCWithInstall<im
     readonly disabled: boolean;
     readonly name: string;
     readonly drag: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
-    readonly data: Record<string, any>;
     readonly onChange: (uploadFile: import("./src/upload").UploadFile, uploadFiles: import("./src/upload").UploadFiles) => void;
-    readonly onError: (error: Error, uploadFile: import("./src/upload").UploadFile, uploadFiles: import("./src/upload").UploadFiles) => void;
     readonly multiple: import("element-plus/es/utils").EpPropMergeType<BooleanConstructor, unknown, unknown>;
+    readonly data: Record<string, any>;
+    readonly onError: (error: Error, uploadFile: import("./src/upload").UploadFile, uploadFiles: import("./src/upload").UploadFiles) => void;
     readonly onProgress: (evt: import("./src/upload").UploadProgressEvent, uploadFile: import("./src/upload").UploadFile, uploadFiles: import("./src/upload").UploadFiles) => void;
     readonly action: string;
     readonly method: string;

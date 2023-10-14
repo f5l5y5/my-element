@@ -100,8 +100,8 @@ declare const _default: import("vue").DefineComponent<{
         };
         readonly label: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, undefined, boolean>;
     }>> & {
-        "onUpdate:modelValue"?: ((value: number) => any) | undefined;
         onChange?: ((value: number) => any) | undefined;
+        "onUpdate:modelValue"?: ((value: number) => any) | undefined;
     }>>;
     emit: ((event: "update:modelValue", value: number) => void) & ((event: "change", value: number) => void);
     formContext: import("element-plus/es/tokens").FormContext | undefined;
@@ -296,8 +296,8 @@ declare const _default: import("vue").DefineComponent<{
     };
     readonly label: import("element-plus/es/utils").EpPropFinalized<StringConstructor, unknown, unknown, undefined, boolean>;
 }>> & {
-    "onUpdate:modelValue"?: ((value: number) => any) | undefined;
     onChange?: ((value: number) => any) | undefined;
+    "onUpdate:modelValue"?: ((value: number) => any) | undefined;
 }, {
     readonly label: string;
     readonly modelValue: number;
